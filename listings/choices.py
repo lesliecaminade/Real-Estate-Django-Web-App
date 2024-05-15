@@ -25,27 +25,8 @@ price_choices = {
 }
 
 state_choices = {
-        
-       'AP': 'Andra Pradesh',
-       'HYD' : 'Hyderabad' ,
-       'AP' : 'Arunachal Pradesh',
-       'AS':'Assam',
-       'BH':'Bihar',
-       'P':'Patna',
-       'CHG':'Chhattisgarh',
-       'Rp':'Raipur',
-       'G': 'Goa',
-       'GU':'Gujarat',
-       'H': 'Haryana',
-       'HP': 'Himachal Pradesh',
-       'JAK'  : 'Jammu and Kashmir',
-       'JK': 'Jharkhand',
-       'RCH': 'Ranchi',
-       'KR': 'Karnataka',
-       'KRL' : 'Kerala',
-       'MP' : 'Madya Pradesh',
-       'BP' :  'Bhopal',
-       'MP':'Maharashtra',
-       'OD' :  'Orissa'
-       
+  'Davao': 'Davao City',
+  'Digos': 'Digos City',
+  'Tagum': 'Tagum City',
+  'Sta. Cruz': 'Sta. Cruz',
 }
