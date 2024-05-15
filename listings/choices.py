@@ -26,7 +26,8 @@ price_choices = {
 
 state_choices = {
   'Davao': 'Davao City',
-  'Digos': 'Digos City',
-  'Tagum': 'Tagum City',
-  'Sta. Cruz': 'Sta. Cruz',
+  'Davao Del Sur': 'Davao Del Sur',
+  'Davao Del Norte': 'Davao Del Norte',
+  'Davao Occidental': 'Davao Occidental',
+  'Davao Oriental': 'Davao Oriental',
 }
