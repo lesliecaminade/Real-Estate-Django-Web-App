@@ -9,8 +9,38 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1 class="display-4">About Real Estate</h1>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
+          <h1>About Us</h1>
+
+          <h2>Welcome to DVO Realty</h2>
+          <p>At DVO Realty, we believe that real estate is more than just transactions—it's about building relationships and creating lifestyles. Our mission is to guide you through every step of your real estate journey with expertise, dedication, and a personal touch.</p>
+  
+          <h2>Who We Are</h2>
+          <p>DVO Realty has grown to become a trusted name in the real estate industry. With a team of experienced professionals, we offer a full spectrum of services to meet all your real estate needs. Whether you're buying, selling, or renting, we provide comprehensive solutions tailored to your unique situation.</p>
+  
+          <h2>Our Values</h2>
+          <p><strong>Integrity:</strong> We conduct our business with the highest ethical standards, ensuring transparency and honesty in every transaction.</p>
+          <p><strong>Commitment:</strong> Our clients are our top priority. We are dedicated to providing exceptional service and achieving outstanding results.</p>
+          <p><strong>Innovation:</strong> We leverage the latest technology and market insights to deliver innovative solutions and a seamless real estate experience.</p>
+          <p><strong>Community:</strong> We are deeply rooted in the communities we serve and are committed to contributing positively to their growth and development.</p>
+  
+          <h2>Our Services</h2>
+          <p><strong>Residential Sales:</strong> Helping you buy or sell your home with personalized service and expert guidance.</p>
+          <p><strong>Commercial Sales:</strong> Providing strategic solutions for commercial real estate investments and transactions.</p>
+          <p><strong>Property Management:</strong> Offering comprehensive management services to maximize the value and performance of your properties.</p>
+          <p><strong>Rental Services:</strong> Assisting landlords and tenants in finding the perfect rental properties and ensuring smooth leasing processes.</p>
+          <p><strong>Market Analysis:</strong> Delivering detailed market insights and data to help you make informed real estate decisions.</p>
+  
+          <h2>Why Choose Us?</h2>
+          <p><strong>Experience:</strong> With years of industry experience, we have a deep understanding of the real estate market and trends.</p>
+          <p><strong>Professionalism:</strong> Our team is composed of certified professionals who are committed to excellence and continuous learning.</p>
+          <p><strong>Client-Focused:</strong> We take the time to understand your needs and work tirelessly to exceed your expectations.</p>
+          <p><strong>Results-Oriented:</strong> Our track record speaks for itself. We are proud of the successful transactions and satisfied clients we have served.</p>
+  
+          <h2>Meet Our Team</h2>
+          <p>Our diverse team of real estate experts brings a wealth of knowledge and a passion for helping clients achieve their real estate goals. From seasoned agents to marketing specialists, each member is dedicated to providing unparalleled service and support.</p>
+  
+          <h2>Contact Us</h2>
+          <p>Ready to start your real estate journey with DVO Realty? Contact us today to schedule a consultation. Follow us for the latest updates and listings.</p>
         </div>
       </div>
     </div>
@@ -38,9 +68,29 @@
           <h2>We Search For The Perfect Home</h2>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
           <img src="{% static 'img/about.jpg' %}" alt="">
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
-            neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
-            commodi id libero eveniet harum perferendis laborum molestias quia.</p>
+            <h3>Dedicated to Finding Your Ideal Property</h3>
+            <p>DVO Realty, we understand that finding the perfect home is more than just a search—it's a journey. We are committed to making that journey as smooth and successful as possible.</p> 
+            
+            <h4>Our Commitment to You</h4>
+            <p>
+              <ul>Expertise: Our team of seasoned professionals is equipped with in-depth market knowledge and insights to guide you every step of the way.</ul>
+              <ul>Personalized Service: We listen to your needs and preferences, ensuring that every home we present aligns with your vision and lifestyle.</ul>
+              <ul>Extensive Network: With a vast network of listings and connections, we offer you access to exclusive properties that meet your criteria.</ul>
+              <ul>Effortless Experience: From the initial search to the final closing, we handle the complexities so you can focus on what matters most—finding your dream home.</ul>
+            </p>
+            
+            <h4>How We Work</h4>
+            <p>
+              <ul>Consultation: We start by understanding your unique requirements, preferences, and budget.</ul>
+              <ul>Tailored Search: Using advanced tools and market insights, we curate a list of properties that match your criteria.</ul>
+              <ul>Property Tours: We arrange viewings and provide detailed information to help you evaluate each option.</ul>
+              <ul>Guidance: Our experts offer advice and support throughout the negotiation and purchasing process.</ul>
+              <ul>Closing: We ensure a seamless and stress-free closing, handling all the details on your behalf.</ul>
+            </p>
+
+            
+            
+            
         </div>
         <div class="col-md-4">
           {% if mvp_realtors %}
@@ -48,7 +98,7 @@
             <div class="card">
                 <img class="card-img-top" src="{{ realtor.photo.url }}" alt="Seller of the month">
                 <div class="card-body">
-                  <h5 class="card-title">Seller Of The Month</h5>
+                  <h5 class="card-title">Featured Agent</h5>
                   <h6 class="text-secondary">{{ realtor.name }}</h6>
                   <p class="card-text">{{ realtor.description }}
                   </p>
@@ -64,7 +114,7 @@
   <!-- Work -->
   <section id="work" class="bg-dark text-white text-center">
     <h2 class="display-4">We Work For You</h2>
-    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
+    <h4>Our mission is to put you first. We are dedicated to providing exceptional service and ensuring your needs are met every step of the way.</h4>
     <hr>
     <a href="{% url 'listings' %}" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
   </section>
